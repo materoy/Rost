@@ -1,5 +1,5 @@
 [package]
-name = "im_os"
+name = "rost"
 version = "0.1.0"
 edition = "2021"
 
@@ -11,3 +11,7 @@ panic = "abort"
 panic = "abort"
 
 [dependencies]
+bootloader = "0.9.21"
+
+# [package.metadata.bootloader]
+# target="x86_64-rost.json"
